@@ -1,0 +1,774 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>flex 布局 · css</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="alittlecloud">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="space.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../reset/">
+            
+                <a href="../reset/">
+            
+                    
+                    Reset
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../reset/reset.html">
+            
+                <a href="../reset/reset.html">
+            
+                    
+                    css 重置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../reset/media.html">
+            
+                <a href="../reset/media.html">
+            
+                    
+                    css 自适应
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="../reset/img.html">
+            
+                <a href="../reset/img.html">
+            
+                    
+                    css 图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Layout
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.2.1" data-path="flex.html">
+            
+                <a href="flex.html">
+            
+                    
+                    flex 布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="space.html">
+            
+                <a href="space.html">
+            
+                    
+                    留白
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="center.html">
+            
+                <a href="center.html">
+            
+                    
+                    水平垂直居中
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../components/">
+            
+                <a href="../components/">
+            
+                    
+                    Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../components/badge.html">
+            
+                <a href="../components/badge.html">
+            
+                    
+                    badge
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../components/button.html">
+            
+                <a href="../components/button.html">
+            
+                    
+                    button
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="../components/list.html">
+            
+                <a href="../components/list.html">
+            
+                    
+                    list
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.4" data-path="../components/navbar.html">
+            
+                <a href="../components/navbar.html">
+            
+                    
+                    navbar
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.5" data-path="../components/notice.html">
+            
+                <a href="../components/notice.html">
+            
+                    
+                    notice
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../utilities/">
+            
+                <a href="../utilities/">
+            
+                    
+                    Utilities
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.4.1" data-path="../utilities/borders.html">
+            
+                <a href="../utilities/borders.html">
+            
+                    
+                    borders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.2" data-path="../utilities/display.html">
+            
+                <a href="../utilities/display.html">
+            
+                    
+                    display
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.3" data-path="../utilities/text.html">
+            
+                <a href="../utilities/text.html">
+            
+                    
+                    text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4.4" data-path="../utilities/shadow.html">
+            
+                <a href="../utilities/shadow.html">
+            
+                    
+                    shadow
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../preprocessor/">
+            
+                <a href="../preprocessor/">
+            
+                    
+                    css 预处理器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="../preprocessor/sass.html">
+            
+                <a href="../preprocessor/sass.html">
+            
+                    
+                    sass
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >flex 布局</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="flex-&#x5E03;&#x5C40;">flex &#x5E03;&#x5C40;</h1>
+<h2 id="flex-&#x4E0A;&#x4E2D;&#x4E0B;&#x5E03;&#x5C40;">flex &#x4E0A;&#x4E2D;&#x4E0B;&#x5E03;&#x5C40;</h2>
+<pre><code class="lang-css"><span class="hljs-selector-class">.layout-root</span>,
+<span class="hljs-selector-tag">body</span>,
+<span class="hljs-selector-tag">html</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+}
+
+<span class="hljs-selector-class">.layout</span> {
+  <span class="hljs-attribute">height</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -moz-box;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">flex-direction</span>: column;
+  <span class="hljs-attribute">-webkit-box-direction</span>: normal;
+  <span class="hljs-attribute">-webkit-box-orient</span>: vertical;
+  <span class="hljs-attribute">-ms-flex-direction</span>: column;
+  <span class="hljs-attribute">-webkit-flex-direction</span>: column;
+}
+
+<span class="hljs-selector-class">.layout-bd</span> {
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">-webkit-flex</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">overflow-y</span>: auto;
+  <span class="hljs-attribute">-webkit-overflow-scrolling</span>: touch;
+}
+</code></pre>
+<h2 id="flex-&#x6805;&#x683C;&#x5316;&#x7CFB;&#x7EDF;">flex &#x6805;&#x683C;&#x5316;&#x7CFB;&#x7EDF;</h2>
+<pre><code class="lang-css"><span class="hljs-selector-class">.x-flexbox</span> {
+  <span class="hljs-attribute">display</span>: -webkit-box;
+  <span class="hljs-attribute">display</span>: -webkit-flex;
+  <span class="hljs-attribute">display</span>: -ms-flexbox;
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">-webkit-box-align</span>: center;
+  <span class="hljs-attribute">-webkit-align-items</span>: center;
+  <span class="hljs-attribute">-ms-flex-align</span>: center;
+  <span class="hljs-attribute">align-items</span>: center;
+}
+
+<span class="hljs-selector-class">.x-flexbox-item</span> {
+  <span class="hljs-comment">/* -webkit-box-sizing: border-box;
+    box-sizing: border-box; */</span>
+  <span class="hljs-attribute">-webkit-box-flex</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">-webkit-flex</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">1</span>;
+  <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
+}
+
+<span class="hljs-selector-class">.x-flexbox</span><span class="hljs-selector-class">.x-flex-column</span> {
+    <span class="hljs-attribute">display</span>: -webkit-box;
+    <span class="hljs-attribute">display</span>: -webkit-flex;
+    <span class="hljs-attribute">display</span>: -ms-flexbox;
+    <span class="hljs-attribute">display</span>: flex;
+    <span class="hljs-attribute">-ms-flex-align</span>: stretch;
+    <span class="hljs-attribute">align-items</span>: stretch;
+    <span class="hljs-attribute">-ms-flex-direction</span>: column;
+    <span class="hljs-attribute">flex-direction</span>: column;
+}
+
+<span class="hljs-selector-class">.x-flexbox</span><span class="hljs-selector-class">.x-flexbox-wrap</span> {
+    <span class="hljs-attribute">-webkit-flex-wrap</span>: wrap;
+    <span class="hljs-attribute">-ms-flex-wrap</span>: wrap;
+    <span class="hljs-attribute">flex-wrap</span>: wrap;
+}
+
+<span class="hljs-selector-class">.x-col-1</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">8.333333%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">8.333333%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">8.333333%</span>
+}
+
+<span class="hljs-selector-class">.x-col-2</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16.666667%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">16.666667%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">16.666667%</span>
+}
+
+<span class="hljs-selector-class">.x-col-3</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">25%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">25%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">25%</span>
+}
+
+<span class="hljs-selector-class">.x-col-4</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">33.333333%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">33.333333%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">33.333333%</span>
+}
+
+<span class="hljs-selector-class">.x-col-5</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">41.666667%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">41.666667%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">41.666667%</span>
+}
+
+<span class="hljs-selector-class">.x-col-6</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">50%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">50%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">50%</span>
+}
+
+<span class="hljs-selector-class">.x-col-7</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">58.333333%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">58.333333%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">58.333333%</span>
+}
+
+<span class="hljs-selector-class">.x-col-8</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">66.666667%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">66.666667%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">66.666667%</span>
+}
+
+<span class="hljs-selector-class">.x-col-9</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">75%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">75%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">75%</span>
+}
+
+<span class="hljs-selector-class">.x-col-10</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">83.333333%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">83.333333%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">83.333333%</span>
+}
+
+<span class="hljs-selector-class">.x-col-11</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">91.666667%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">91.666667%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">91.666667%</span>
+}
+
+<span class="hljs-selector-class">.x-col-12</span> {
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">100%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">100%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">100%</span>
+}
+</code></pre>
+<h2 id="flex-&#x6D41;&#x5F0F;&#x5E03;&#x5C40;">flex &#x6D41;&#x5F0F;&#x5E03;&#x5C40;</h2>
+<pre><code class="lang-css"><span class="hljs-selector-class">.stream-flex-box</span> {
+    <span class="hljs-attribute">display</span>: -webkit-box;
+    <span class="hljs-attribute">display</span>: -webkit-flex;
+    <span class="hljs-attribute">display</span>: -ms-flexbox;
+    <span class="hljs-attribute">display</span>: flex;
+    <span class="hljs-attribute">-webkit-box-align</span>: start;
+    <span class="hljs-attribute">-webkit-align-items</span>: flex-start;
+    <span class="hljs-attribute">-ms-flex-align</span>: start;
+    <span class="hljs-attribute">align-items</span>: flex-start;
+    <span class="hljs-attribute">-ms-flex-wrap</span>: wrap;
+    <span class="hljs-attribute">flex-wrap</span>: wrap;
+}
+<span class="hljs-selector-class">.stream-flex-item</span> {
+    <span class="hljs-attribute">-webkit-box-flex</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">-ms-flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">25%</span>;
+    <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">0</span> <span class="hljs-number">25%</span>;
+    <span class="hljs-attribute">max-width</span>: <span class="hljs-number">25%</span>;
+    <span class="hljs-attribute">box-sizing</span>: border-box;
+}
+</code></pre>
+<h2 id="flex-&#x6C34;&#x5E73;&#x6ED1;&#x52A8;">flex &#x6C34;&#x5E73;&#x6ED1;&#x52A8;</h2>
+<blockquote>
+<p>&#x9002;&#x7528;&#x4E8E;&#x56FE;&#x7247;&#x6C34;&#x5E73;&#x5217;&#x8868;&#x6ED1;&#x52A8;</p>
+</blockquote>
+<pre><code class="lang-css"><span class="hljs-selector-class">.level-flex-box</span> {
+  <span class="hljs-attribute">display</span>: flex;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;
+  <span class="hljs-attribute">padding</span>: <span class="hljs-number">0</span> <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">box-sizing</span>: border;
+  <span class="hljs-attribute">overflow-x</span>: scroll;
+  <span class="hljs-attribute">-webkit-overflow-scrolling</span>: touch;
+}
+
+<span class="hljs-selector-class">.level-flex-item</span> {
+  <span class="hljs-attribute">flex-shrink</span>: <span class="hljs-number">0</span>;
+  <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">10px</span>;
+  <span class="hljs-attribute">width</span>: <span class="hljs-number">100px</span>;
+}
+</code></pre>
+<h2 id="flex-&#x5C5E;&#x6027;">flex &#x5C5E;&#x6027;</h2>
+<table>
+<thead>
+<tr>
+<th>&#x5C5E;&#x6027;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>flex-grow</code></td>
+<td>&#x6269;&#x5C55;&#x6BD4;&#x7387;&#xFF0C;&#x7236;&#x5143;&#x7D20;&#x591A;&#x51FA;&#x6765;&#x7684;&#x5904;&#x7406;&#x65B9;&#x6CD5;</td>
+</tr>
+<tr>
+<td><code>flex-shrink</code></td>
+<td>&#x6536;&#x7F29;&#x6BD4;&#x7387;&#xFF0C;&#x7236;&#x5143;&#x7D20;&#x4E0D;&#x8DB3;&#x7684;&#x5904;&#x7406;&#x65B9;&#x6CD5;</td>
+</tr>
+<tr>
+<td><code>flex-basis</code></td>
+<td>width&#x7684;&#x66FF;&#x4EE3;&#x54C1;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Layout">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="space.html" class="navigation navigation-next " aria-label="Next page: 留白">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"flex 布局","level":"2.2.1","depth":2,"next":{"title":"留白","level":"2.2.2","depth":2,"path":"chapters/layout/space.md","ref":"chapters/layout/space.md","articles":[]},"previous":{"title":"Layout","level":"2.2","depth":1,"path":"chapters/layout/README.md","ref":"chapters/layout/README.md","articles":[{"title":"flex 布局","level":"2.2.1","depth":2,"path":"chapters/layout/flex.md","ref":"chapters/layout/flex.md","articles":[]},{"title":"留白","level":"2.2.2","depth":2,"path":"chapters/layout/space.md","ref":"chapters/layout/space.md","articles":[]},{"title":"水平垂直居中","level":"2.2.3","depth":2,"path":"chapters/layout/center.md","ref":"chapters/layout/center.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","toggle-chapters","sectionx","livereload"],"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"livereload":{},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sectionx":{},"highlight":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"alittlecloud","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"css","language":"zh-hans","gitbook":"*"},"file":{"path":"chapters/layout/flex.md","mtime":"2018-07-19T09:16:05.386Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-07-26T09:29:49.634Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
