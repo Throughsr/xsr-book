@@ -1,12 +1,9 @@
-![logo](_media/icon.svg)
 
-# docsify
 
-> A magical documentation site generator.
+# CSS 知识点
 
-* Simple and lightweight (~12kb gzipped)
-* Multiple themes
-* Not build static html files
+> css 知识点总结
+
 
 [GitHub](https://github.com/docsifyjs/docsify/)
 [Get Started](#quick-start)
