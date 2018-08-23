@@ -5,5 +5,5 @@
 > css 知识点总结
 
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#quick-start)
+[GitHub](https://github.com/Throughsr/xsr-book)
+[Get Started](#/README)
