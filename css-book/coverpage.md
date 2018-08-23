@@ -6,4 +6,4 @@
 
 
 [GitHub](https://github.com/Throughsr/xsr-book)
-[Get Started](#/README)
+[Get Started](#quick-start)
