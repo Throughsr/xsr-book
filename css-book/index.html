@@ -19,10 +19,10 @@
     window.$docsify = {
       name: 'css 知识点',
       repo: 'https://github.com/Throughsr/xsr-book',// 指定 github 库，文档右上角会有 fork icon
-      loadNavbar: true,//导航栏
-      loadSidebar:true,//侧边栏
-      // subMaxLevel:2,//自定义侧边栏后默认不会再生成目录，想生成需手动设置
-      coverpage:true,
+      loadNavbar: 'navbar.md',//导航栏
+      loadSidebar: 'sidebar.md',//侧边栏
+      subMaxLevel:2,//自定义侧边栏后默认不会再生成目录，想生成需手动设置
+      coverpage: 'coverpage.md',
       mergeNavbar:true,//小屏设备下合并导航栏到侧边栏
       formatUpdated:'{MM}/{DD} {HH}:{mm}',
       logo: '/_media/icon.svg',
@@ -33,6 +33,5 @@
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
   <!-- 复制代码 -->
   <script src="//unpkg.com/docsify-copy-code"></script>
-  <script src="//unpkg.com/docsify"></script>
 </body>
 </html>
