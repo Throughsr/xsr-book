@@ -6,4 +6,4 @@
 
 
 [GitHub](https://github.com/Throughsr/xsr-book)
-[Get Started](#quick-start)
+[Get Started](https://github.com/treecrow/docsify-books/blob/master/css-book/README.md)
