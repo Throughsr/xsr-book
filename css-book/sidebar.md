@@ -16,6 +16,7 @@
     * [appbar](chapters/components/appbar.md)
     * [notice](chapters/components/notice.md)
 * [Utilities](chapters/utilities/README.md)
+    * [animation](chapters/utilities/animation.md)
     * [borders](chapters/utilities/borders.md)
     * [display](chapters/utilities/display.md)
     * [text](chapters/utilities/text.md)
