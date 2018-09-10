@@ -13,7 +13,7 @@
     * [badge](chapters/components/badge.md)
     * [button](chapters/components/button.md)
     * [list](chapters/components/list.md)
-    * [navbar](chapters/components/appbar.md)
+    * [appbar](chapters/components/appbar.md)
     * [notice](chapters/components/notice.md)
 * [Utilities](chapters/utilities/README.md)
     * [borders](chapters/utilities/borders.md)
